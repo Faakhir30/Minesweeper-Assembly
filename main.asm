@@ -1,3 +1,16 @@
+; This program generates a Minesweeper game grid of size N x M and places Mines number of mines randomly on the grid.
+; It then calculates the number of adjacent mines for each cell and displays the grid to the user.
+; The user can then play the game by revealing cells and flagging mines.
+; The program ends when the user wins or loses the game.
+; 
+; The program consists of the following procedures:
+; - initGrid: Initializes the grid with '0' values.
+; - placeMines: Places Mines number of mines randomly on the grid.
+; - calculateAdjacents: Calculates the number of adjacent mines for each cell.
+; - countAdjacentMines: Helper procedure for calculateAdjacents to count the number of adjacent mines for a single cell.
+; - displayGrid: Displays the grid to the user.
+; - getRandomPosition: Helper procedure for placeMines to get a random position for mine placement.
+; - playGame: Implements the game loop and user interactions.
 include Irvine64.inc
 
 N equ 5  ; Number of rows
