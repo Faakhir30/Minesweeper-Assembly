@@ -1,4 +1,5 @@
-
+; CONVENTIONS:
+; any pen yak is not allowed to use regs other than 32 bit, DWORD ky ilawa nothing use
 include Irvine32.inc
 include macros.inc
 .data
